@@ -1,12 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using System;
 
 namespace FrameworkDesign
 {
     public class BindableProperty<T> where T : IEquatable<T>
     {
+
+        public BindableProperty(T defaultValue = default)
+        {
+            _mValue = defaultValue;
+        }
+
         private T _mValue = default(T);
 
         public T Value
@@ -15,12 +18,21 @@ namespace FrameworkDesign
 
             set
             {
-                if (!value.Equals(_mValue))
+                if(_mValue == null && value == null) return;
+
+                if (_mValue == null)
                 {
                     _mValue = value;
                     // 数值变化时触发注册器
                     _mOnValueChanged?.Invoke(value);
+                    return;
                 }
+
+                if (value.Equals(_mValue)) return;
+                
+                _mValue = value;
+                // 数值变化时触发注册器
+                _mOnValueChanged?.Invoke(value);
             }
         }
 

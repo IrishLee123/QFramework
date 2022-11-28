@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6685b3d-2142-4fa8-86ec-4f627684bc40" name="Changes" comment="" />
+    <list default="true" id="b6685b3d-2142-4fa8-86ec-4f627684bc40" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.QFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QFramework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrameWorkDesign/Framework/BindableProperty/BindableProperty.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FrameWorkDesign/Framework/BindableProperty/BindableProperty.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,10 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.24/UnityEngine.TestRunner/TestRunner/RemoteHelpers/PlayerConnectionMessageIds.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5406a456cf734443b3d02a7d123287f1299290/f3/f7a53563/Attribute.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,6 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="settings.editor.selected.configurable" value="SymbolServersPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -63,6 +71,10 @@
       <option name="presentableId" value="Default" />
       <updated>1646231131056</updated>
       <workItem from="1646231131058" duration="681000" />
+      <workItem from="1649585948118" duration="664000" />
+      <workItem from="1669302822666" duration="4169000" />
+      <workItem from="1669477414111" duration="2421000" />
+      <workItem from="1669519525209" duration="2006000" />
     </task>
     <servers />
   </component>
